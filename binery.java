@@ -5,13 +5,12 @@ public class binery {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number");
         int a = sc.nextInt();
-        if (a == 0) {
-            System.out.print(0);
-        }
+        System.out.print(binery1(a));
     }
 
     static int binery1(int a) {
-        a = a%2;
-        return a;
+        int b = a%2;
+        a = a/2;
+        return b;
     }
 }
