@@ -1,12 +1,9 @@
 body, html {
     height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-.full-screen-div {
     width: 100%;
-    height: 100%;
-    background-color: darkgray; /* Set the background color to dark gray */
-    /* Add other styles for your full-screen div here */
+}
+.full-screen-div {
+    width: 100px;
+    height: 100px;
+    background-color: darkgray;
 }
