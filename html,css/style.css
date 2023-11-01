@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 .container{
     width: 100%;
@@ -24,4 +24,12 @@
 .menu-icon{
     width: 25px;
     cursor: pointer;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
 }
