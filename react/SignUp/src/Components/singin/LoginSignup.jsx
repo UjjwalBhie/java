@@ -17,6 +17,8 @@ const LoginSignup = () => {
           <input type="text"/>
         </div>
 
+
+<div></div>
         <div className="input">
           <img src="react/SignUp/src/Components/Assets/email.png"/>
           <input type="email"/>
