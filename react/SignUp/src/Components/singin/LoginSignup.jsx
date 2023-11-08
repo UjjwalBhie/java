@@ -1,7 +1,7 @@
 import React from 'react'
 import './LoginSignup.css'
-import user_icon from ''
-import eail_icon from '../Assets/email.png'
+import user_icon from '../Assets/person.png'
+import email_icon from '../Assets/email.png'
 import password_icon from '../Assets/password.png'
 
 const LoginSignup = () => {
@@ -11,23 +11,28 @@ const LoginSignup = () => {
         <div className="text">Sign UP</div>
         <div className="underline"></div>
       </div>
+
+
       <div className="inputs">
         <div className="input">
-          <img src="react/SignUp/src/Components/Assets/person.png"/>
-          <input type="text"/>
-        </div>
+          
+          <img src={user_icon} alt="user" />
+          <input type="text" />
 
 
-<div></div>
-        <div className="input">
-          <img src="react/SignUp/src/Components/Assets/email.png"/>
-          <input type="email"/>
+
+          <div className="input">
+            <img src={email_icon} alt="email" />
+            <input type="email" />
+          </div>
+
+          <div className="input">
+            <img src={password_icon} alt="password" />
+            <input type="password" />
+          </div>
+
         </div>
 
-        <div className="input">
-          <img src="react/SignUp/src/Components/Assets/password.png"/>
-          <input type="password"/>
-        </div>
       </div>
       <div className="forgot-pass">Lost Password? <span>Click Here</span></div>
       <div className="submit-container">
