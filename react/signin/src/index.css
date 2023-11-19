@@ -1,0 +1,11 @@
+:root{
+    --dark1: #352F44;
+    --dark2: #5C5470;
+    --dark3: #B9B4C7;
+    --light: #bcb1dd;
+}
+
+body{
+    background: var(--dark1);
+    font-family: 'Varela Round', sans-serif;
+}
