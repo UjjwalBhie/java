@@ -7,4 +7,4 @@ public class tp {
             System.out.println(a);
         }
     }
-}-
+} m
